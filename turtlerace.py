@@ -33,17 +33,4 @@ while is_game_on:
         steps = random.randint(0,10)
         turtle.fd(steps)
 
-# def t1_move_forward():
-#     x=-240
-#     count1=0
-#     while x<240:
-#         steps =random.randint(5,10)
-#         t1.fd(steps)
-#         t1.setheading(steps)
-#         x=x+steps
-#         count1+=1
-#         # print(x,count1)
-
-
-
 s.exitonclick()
